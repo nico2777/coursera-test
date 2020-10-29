@@ -1,0 +1,106 @@
+body{
+	font-size: 16px;
+	color:#ffff;
+	background-color: red;
+}
+
+/**HEADER**/
+nav > .container{
+	margin-left: 20PX
+}
+#header-nav{
+	background-color: orange;
+	border-radius: 0;
+	border:0;
+	padding: 10px;
+	margin: 0px
+}
+
+.navbar-header{
+	padding-top:25px;
+	float:left;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+.navbar-header h1{
+	color:black;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 5;
+ 	line-height: .75;
+}
+.navbar-collapse{
+	background-color: white;
+	text-align: center;
+}
+li{
+	border:solid black 1px;
+	margin 0;
+	width: 100%;
+}
+ul, #nav-list, .nav, .navbar-nav{
+	margin: 0;
+}
+
+div, #collapsable-nav{
+	padding:0;
+	border:0;
+}
+/**END HEADER***/
+
+/**MAIN PAGE**/
+
+h2, h3{
+	text-align:center;
+	color:black;
+	font-weight: bold;
+	padding:20px;}
+
+.col-md-4{
+
+
+}
+#Sushi, #Beef, #Chicken{
+	background-color: grey;
+}
+p{
+	padding: 5px;
+}
+.row{
+	width: 100%;
+	margin:0;
+}
+
+
+/**********	LG 	***************/
+@media (min-width:1200px){
+
+#collapsable-nav, .navbar-collapse{	/** I HAD TO DO THIS BECAUSE CLASS HIDE AND D-NONE DOESNT WORK AN  (WE HAVEOLDER VERSION)**/
+	display:none !important;}
+
+
+
+
+}
+/********	MD ***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#collapsable-nav, .navbar-collapse{	/** I HAD TO DO THIS BECAUSE CLASS HIDE AND D-NONE DOESNT WORK AN  (WE HAVEOLDER VERSION)**/
+	display:none !important;}
+
+
+}
+/********	SM ****************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#collapsable-nav, .navbar-collapse{	/** I HAD TO DO THIS BECAUSE CLASS HIDE AND D-NONE DOESNT WORK AN  (WE HAVEOLDER VERSION)**/
+	display:none !important;}
+}
+
+/***********	XS	*************/
+@media (max-width: 767px) {
+}
+
