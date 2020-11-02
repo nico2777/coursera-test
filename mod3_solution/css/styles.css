@@ -53,11 +53,16 @@ div, #collapsable-nav{
 
 /**MAIN PAGE**/
 
-h2, h3{
+h3{
 	text-align:center;
 	color:black;
 	font-weight: bold;
 	padding:20px;}
+h2{
+	color:black;
+	font-weight: bold;
+	padding:20px;}
+}
 
 .col-md-4{
 
